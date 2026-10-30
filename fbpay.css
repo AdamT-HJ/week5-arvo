@@ -1,0 +1,110 @@
+body {
+  font-family: "Tahoma";
+}
+
+/* The main part of our web page */
+main {
+  display: flex;
+  /* background-color: purple; */
+}
+
+/* The left side of the main element */
+#left {
+  /* background-color: blue; */
+  margin: 30px 100px;
+  width: 45%;
+}
+
+/* The right side of the main element */
+/* If using option 1 for image */
+#right {
+  /* background-color: greenyellow; */
+  width: 55%;
+  text-align: right;
+}
+
+#image {
+  width: 80%;
+}
+
+/* If using option 2 for image */
+/* #right {
+  width: 55%;
+  background-image: url("https://flipweb.org/wp-content/uploads/2019/11/Facebook-Pay.png");
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+} */
+
+/* Style the NavBar */
+nav > ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 50px 100px;
+}
+
+/* Default state of the nav link */
+.btn {
+  background-color: #d8e4ef;
+  text-align: center;
+  font-size: 16px;
+}
+
+.nav-link {
+  list-style: none;
+  margin: 2px 5px;
+  padding: 8px 15px;
+}
+
+/* The HOVERED state of the nav-link */
+.nav-link:hover,
+.nav-link a:hover {
+  background-color: #396ee1;
+  color: #fff;
+}
+
+/* Change all h1 and p elements */
+h1 {
+  font-size: 40px;
+}
+
+p {
+  margin: 35px 0;
+}
+
+/* The Let's Chat button */
+.chat-btn {
+  display: block;
+  margin: 20px 0px;
+  padding: 14px 25px;
+  width: 200px;
+  font-family: inherit;
+  font-weight: 700;
+  border: none;
+}
+
+/* The HOVERED state of the chat-btn */
+.chat-btn:hover {
+  background-color: #396ee1;
+  color: white;
+}
+
+.chat-btn:active {
+  color: red;
+}
+
+/* Style all 'a' elements */
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* The active state of all 'a' elements */
+a:active {
+  color: red;
+}
+
+span {
+  color: #396ee1;
+}
