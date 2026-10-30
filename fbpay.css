@@ -38,7 +38,7 @@ main {
 } */
 
 /* Style the NavBar */
-nav > ul {
+nav>ul {
   display: flex;
   justify-content: flex-end;
   margin: 50px 100px;
@@ -107,4 +107,8 @@ a:active {
 
 span {
   color: #396ee1;
+}
+
+#pumped {
+  width: 50%;
 }
